@@ -1,0 +1,59 @@
+footer {
+  background-image: radial-gradient(
+    circle,
+    #c7c7c7,
+    #cfcfcf,
+    #d6d6d6,
+    #dedede,
+    #e6e6e6cc
+  );
+  color: black;
+  font-family: "Itim", cursive;
+  padding: 0.625rem;
+}
+
+.containerFooter {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.3125rem;
+}
+
+.redesSociales {
+  a {
+    display: inline-block;
+    padding: 0.625rem;
+  }
+
+  h5 {
+    font-size: 1.1875rem;
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+  }
+}
+
+.columnasFooter {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 65%;
+  color: black;
+}
+
+.columna {
+  flex-basis: 23%;
+
+  h4 {
+    margin-bottom: 0.625rem;
+  }
+
+  p {
+    margin-bottom: 0.3125rem;
+  }
+}

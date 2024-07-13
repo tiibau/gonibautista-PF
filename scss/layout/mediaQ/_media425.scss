@@ -1,0 +1,71 @@
+@media (max-width: 425px) {
+  .columnasFooter {
+    flex-direction: column;
+    margin-bottom: 0.625rem;
+  }
+
+  .invitacion {
+    width: 100%;
+    margin: 0.625rem 0;
+  }
+
+  .containerIndex {
+    grid-template-columns: 1fr;
+  }
+
+  .publicacionesUsuarios {
+    gap: 0.625rem;
+    padding: 0.625rem;
+  }
+
+  .eventos {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0.625rem;
+  }
+
+  .ultimosGanadores {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ganadoresRecuadro {
+    width: 100%;
+  }
+
+  .contactoSection {
+    textarea {
+      width: 100%;
+    }
+
+    input {
+      &[type="text"],
+      &[type="email"] {
+        width: 100%;
+      }
+    }
+  }
+
+  .opiniones {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.1875rem;
+  }
+
+  .opinion {
+    max-width: 90%;
+    margin: 0.625rem;
+  }
+
+  .acercaDeNosotros {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25rem;
+    gap: 0.625rem;
+
+    img {
+      max-width: 80%;
+      margin-right: 0;
+    }
+  }
+}

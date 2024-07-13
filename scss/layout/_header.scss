@@ -1,0 +1,28 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-image: radial-gradient(
+    circle,
+    #c7c7c7,
+    #cfcfcf,
+    #d6d6d6,
+    #dedede,
+    #e6e6e6cc
+  );
+}
+
+.tituloPagina {
+  font-family: "Jim Nightshade", cursive;
+  color: black;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -1,0 +1,526 @@
+main {
+  color: black;
+  background-color: $color1-fondo;
+}
+
+.topPage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.9375rem;
+}
+
+.actions a {
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.registro input {
+  margin-right: 0.625rem;
+  padding: 0.625rem;
+  cursor: pointer;
+}
+
+.lema {
+  font-family: "Jim Nightshade";
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 1.4375rem;
+  padding: 0.625rem;
+}
+
+.invitacion {
+  width: 50%;
+  background-image: radial-gradient(
+    circle,
+    #c7c7c7,
+    #cfcfcf,
+    #d6d6d6,
+    #dedede,
+    #e6e6e6cc
+  );
+  margin: 20px 0 40px 40px;
+
+  h3 {
+    font-size: 1.5625rem;
+    font-family: "Kavivanar";
+    color: #1d1e1f;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+    strong {
+      font-weight: bold;
+    }
+  }
+}
+
+.containerIndex {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 1.25rem;
+}
+
+.publicacionesRecientes {
+  font-family: "Roboto Mono";
+  margin-top: 3.125rem;
+  margin-left: 2.8125rem;
+  font-family: "Josefin Slab", serif;
+}
+
+.publicacionesUsuarios {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  gap: 1.25rem;
+  padding: 1.25rem;
+}
+
+.publicacion {
+  border: 0.0625rem solid #000;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+
+  h4 {
+    font-size: 1.25rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  p {
+    font-size: 0.75rem;
+    font-family: "Itim", cursive;
+    text-align: justify;
+  }
+}
+
+.publicacionesUsuarios {
+  img {
+    max-width: 100%;
+    max-height: 12.5rem;
+    height: auto;
+  }
+
+  article {
+    margin: 0.625rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  button {
+    background-color: rgb(71, 60, 60);
+    color: white;
+    border: none;
+    padding: 0.625rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #4e3e3e9c;
+    }
+
+    &:active {
+      background-color: #ceb1b1;
+    }
+  }
+
+  > div {
+    background-color: #e9d6b791;
+    border: 0.0625rem solid #ccc;
+    padding: 1.25rem;
+  }
+}
+
+.sidebars-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebars {
+  background-color: #eaeaea;
+  padding: 1.25rem;
+  border: 0.0625rem solid #ccc;
+  margin-top: 1.25rem;
+
+  h4 {
+    margin-top: 0;
+  }
+}
+
+.hashtags a,
+.nuevos-escritores a {
+  display: block;
+  margin: 0.3125rem 0;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.publicidad {
+  max-width: 62.5rem;
+  max-height: 25rem;
+  padding: 2.8125rem;
+  margin-left: 200px;
+}
+
+.carouselContainer {
+  display: flex;
+  justify-content: center;
+  padding: 2.8125rem;
+  background-color: #e5c8a5dc;
+  border-radius: 1.375rem;
+  box-shadow: 0 0.375rem 1.625rem rgba(0, 0, 0, 0.1);
+
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+      transition: transform 100ms linear 90ms;
+    }
+  }
+}
+
+.carouselDescription {
+  display: flex;
+  justify-content: center;
+  gap: 1.875rem;
+  font-size: 0.75rem;
+  margin-top: 1.875rem;
+  margin-right: 1.875rem;
+}
+
+.carousel button {
+  margin-top: 2.5rem;
+  padding: 0.6875rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #4e3e3e9c;
+  }
+
+  &:active {
+    background-color: #ceb1b1;
+  }
+}
+
+.verMas {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+  margin-right: 21.875rem;
+
+  button {
+    padding: 1.0625rem 3.125rem;
+    font-size: 1rem;
+    margin-bottom: 3.125rem;
+    background-color: rgb(72, 77, 80);
+    color: white;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ce11119c;
+    }
+
+    &:active {
+      background-color: #ceb1b1;
+    }
+  }
+}
+
+.recursos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4.6875rem;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6.25rem;
+  margin: 5rem auto 0 auto;
+  max-width: 75rem;
+}
+
+.recurso {
+  border: 0.3125rem solid #352424;
+  background-color: #848b9285;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h3 {
+    font-family: "Roboto Mono";
+  }
+
+  p {
+    font-size: 0.875rem;
+    font-family: "Itim", cursive;
+  }
+}
+
+.subtituloRecursos {
+  margin-top: 0;
+  padding: 10px 0;
+}
+
+.tituloRecursos {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+  margin: 1.875rem;
+}
+
+.titulos_recursos {
+  text-decoration: none;
+  color: black;
+}
+
+.recurso img {
+  width: 6.25rem;
+  height: 6.25rem;
+  object-fit: contain;
+  margin-bottom: 0.625rem;
+}
+
+.recursos .recurso img:hover {
+  transform: scale(1.3);
+  transition: transform 300ms linear 100ms;
+}
+
+.eventos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 1.25rem;
+}
+
+.tituloMes {
+  text-align: center;
+}
+
+.calendario img {
+  max-width: 100%;
+  padding-left: 4.6875rem;
+}
+
+.topPage_eventos {
+  display: flex;
+  margin: 3rem;
+  gap: 23.75rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ultimosGanadores {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1.25rem;
+  gap: 3.5rem;
+
+  .texto {
+    max-width: 37.5rem;
+    flex: 1;
+    justify-content: center;
+  }
+
+  p {
+    margin: 3.5rem 0 3.375rem 0;
+    font-family: "Itim";
+    font-size: 1.25rem;
+  }
+}
+
+.ganadoresRecuadro {
+  background-color: #e9c99aea;
+  border: 0.0625rem solid #ccc;
+  padding: 1.25rem;
+  width: 18.75rem;
+  box-sizing: border-box;
+
+  h3 {
+    text-align: center;
+    margin-bottom: 0.4375rem;
+    padding: 0.625rem;
+    background-color: #e9c99aea;
+    border-bottom: 0.0625rem solid #ccc;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    padding: 0.3125rem 0;
+    border-bottom: 0.0625rem solid #917c7c;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.contactoSection {
+  width: 100%;
+  max-width: 37.5rem;
+  margin: 0;
+  padding: 1.25rem;
+
+  h2 {
+    margin-bottom: 1.25rem;
+  }
+
+  textarea {
+    width: 56.25rem;
+    height: 9.375rem;
+    margin-bottom: 1.25rem;
+  }
+
+  input {
+    &:focus {
+      background-color: #83b3e6;
+    }
+
+    &[type="text"],
+    &[type="email"] {
+      width: 60%;
+      margin-bottom: 0.625rem;
+      padding: 0.625rem;
+    }
+
+    &[type="checkbox"] {
+      margin: 0.625rem 0.625rem 0.625rem 0;
+    }
+  }
+
+  p {
+    margin: 0.625rem 0;
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  button {
+    display: block;
+    width: 30%;
+    padding: 0.625rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 0.625rem;
+
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
+}
+
+.opinionesSection {
+  margin-top: 3.75rem;
+  text-align: center;
+  width: 100%;
+  padding: 1.25rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+    color: #333333;
+  }
+}
+
+.opiniones {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+
+.opinion {
+  font-family: "Josefin Slab", serif;
+  margin: 3.75rem;
+  max-width: 30%;
+  max-height: 70%;
+  background-color: #c0b8b8;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  flex: 1;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-0.625rem);
+  }
+
+  p {
+    color: #332f2f;
+    font-size: 1rem;
+    line-height: 2;
+    margin: 0;
+  }
+}
+
+.acercaDeNosotros {
+  font-family: "Josefin Slab", serif;
+  display: flex;
+  margin-top: 5.75rem;
+  justify-content: space-between;
+  gap: 2.875rem;
+}
+
+.acercaContenido {
+  margin-left: 3.125rem;
+}
+
+.acercaDeNosotros {
+  h3 {
+    font-family: "Itim", cursive;
+    font-size: 1.75rem;
+  }
+
+  img {
+    max-width: 40%;
+    margin-right: 3.75rem;
+    border-radius: 38px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+    }
+
+    &::after {
+      position: absolute;
+      bottom: -25px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #333;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      opacity: 0;
+      transition: opacity 4s ease;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+  }
+
+  p {
+    font-size: 1.5625rem;
+    padding-top: 2.5rem;
+  }
+}

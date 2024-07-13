@@ -1,0 +1,90 @@
+@media (max-width: 768px) {
+  .publicacionesUsuarios {
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .topPage {
+    margin-top: 0.5rem;
+  }
+
+  .invitacion {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .carouselContainer {
+    padding: 1.25rem;
+  }
+
+  .verMas button {
+    width: auto;
+    padding: 0.625rem 1.25rem;
+  }
+
+  .recursos {
+    gap: 2rem;
+    margin: 2.5rem auto 0 auto;
+  }
+
+  .eventos {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .topPage_eventos {
+    margin: 1.5rem;
+    gap: 1.25rem;
+  }
+
+  .ultimosGanadores {
+    padding: 0.3125rem 4.6875rem;
+    gap: 1.75rem;
+
+    p {
+      display: none;
+    }
+  }
+
+  .contactoSection {
+    textarea {
+      width: 90%;
+      height: 7.5rem;
+    }
+
+    input {
+      &[type="text"],
+      &[type="email"] {
+        width: 80%;
+      }
+    }
+
+    button {
+      width: 50%;
+    }
+  }
+
+  .opiniones {
+    max-width: 100%;
+    gap: 1rem;
+    padding: 0.625rem 3.125rem;
+  }
+
+  .opinion p {
+    font-size: 0.75rem;
+  }
+
+  .acercaDeNosotros {
+    p {
+      font-size: 0.9375rem;
+    }
+
+    img {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  .navbar nav ul {
+    gap: 0.625rem;
+  }
+}

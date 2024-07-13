@@ -1,0 +1,199 @@
+@media (max-width: 64rem) {
+  header {
+    background-color: #0056b3;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .publicidad {
+    padding: 1.25rem;
+    height: 50%;
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .publicacionesUsuarios {
+    display: grid;
+    grid-template-columns: repeat(3, 38%);
+    gap: 1.25rem;
+    padding: 1.25rem;
+    justify-content: space-between;
+  }
+
+  .publicacion {
+    h4 {
+      font-size: 0.875rem;
+      text-align: start;
+    }
+
+    p {
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+  }
+
+  .sidebars {
+    display: none;
+  }
+
+  .recursos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .container {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .publicacionesUsuarios {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .curso-publicidad {
+    padding-right: 0;
+    padding-bottom: 1.875rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 0.625rem 0.3125rem;
+  }
+
+  .containerFooter {
+    flex-direction: column;
+    padding: 1.25rem;
+    margin-left: 0;
+  }
+
+  .columna {
+    flex-basis: 100%;
+    margin-bottom: 0.625rem;
+  }
+
+  .topPage {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .invitacion {
+    width: 100%;
+    margin: 1.25rem 0;
+  }
+
+  .containerIndex {
+    grid-template-columns: 1fr;
+    padding: 0 3.125rem;
+  }
+
+  .publicacionesUsuarios {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+
+  .publicacion {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sidebars {
+    display: none;
+  }
+
+  .carouselDescription {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .verMas {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .publicidad {
+    display: none;
+  }
+
+  .recursos {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 0 3.125rem;
+  }
+
+  .recurso {
+    width: 100%;
+    margin-bottom: 0.625rem;
+  }
+
+  .eventos {
+    grid-template-columns: repeat(2, 2fr);
+    gap: 0.9375rem;
+  }
+
+  .topPage_eventos {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.625rem;
+  }
+
+  .ultimosGanadores {
+    flex-direction: column;
+    align-items: center;
+    padding: 9.375rem;
+  }
+
+  .texto p {
+    font-size: 0.875rem;
+  }
+
+  .contactoSection {
+    textarea {
+      width: 100%;
+      height: 9.375rem;
+    }
+
+    input {
+      &[type="text"],
+      &[type="email"] {
+        width: 100%;
+      }
+    }
+  }
+
+  .opiniones {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.625rem 9.375rem;
+  }
+
+  .opinion {
+    max-width: 100%;
+    margin: 1.25rem 0;
+  }
+
+  .acercaDeNosotros {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+
+    img {
+      max-width: 80%;
+      margin-right: 0;
+    }
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3125rem;
+
+    a {
+      margin: 0.3125rem 0;
+    }
+  }
+}

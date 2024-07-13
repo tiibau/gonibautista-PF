@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  background-image: radial-gradient(circle, #c7c7c7, #cfcfcf, #d6d6d6, #dedede, rgba(230, 230, 230, 0.8));
+}
+
+.tituloPagina {
+  font-family: "Jim Nightshade", cursive;
+  color: black;
+}
+
+footer {
+  background-image: radial-gradient(circle, #c7c7c7, #cfcfcf, #d6d6d6, #dedede, rgba(230, 230, 230, 0.8));
+  color: black;
+  font-family: "Itim", cursive;
+  padding: 0.625rem;
+}
+
+.containerFooter {
+  max-width: 75rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.3125rem;
+}
+
+.redesSociales a {
+  display: inline-block;
+  padding: 0.625rem;
+}
+.redesSociales h5 {
+  font-size: 1.1875rem;
+  margin-top: 0.9375rem;
+  margin-bottom: 0.9375rem;
+}
+.redesSociales img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.columnasFooter {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 65%;
+  color: black;
+}
+
+.columna {
+  flex-basis: 23%;
+}
+.columna h4 {
+  margin-bottom: 0.625rem;
+}
+.columna p {
+  margin-bottom: 0.3125rem;
+}
+
+main {
+  color: black;
+  background-color: rgba(206, 189, 189, 0.431372549);
+}
+
+.navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin-right: 1.25rem;
+}
+.navbar nav ul a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(0, 0, 0);
+}
+.navbar nav ul a:hover {
+  color: #e78f1c;
+  transform: scale(1.2);
+  transition: transform 100ms linear 90ms;
+}/*# sourceMappingURL=style.css.map */

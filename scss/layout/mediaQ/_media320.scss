@@ -1,0 +1,267 @@
+/*
+@media (max-width: 20rem) {
+  .recursos {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .recurso {
+    padding: 0.625rem;
+  }
+
+  .recurso img {
+    width: 3.75rem;
+    height: 3.75rem;
+  }
+
+  .recurso p {
+    font-size: 0.75rem;
+  }
+
+  .publicacion h4 {
+    font-size: 1rem;
+  }
+
+  .publicacion p {
+    font-size: 0.625rem;
+  }
+
+  .publicidad img {
+    width: 100%;
+  }
+
+  .curso-publicidad h2 {
+    font-size: 1.2rem;
+  }
+
+  .curso-publicidad p {
+    font-size: 0.625rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .publicacionesUsuarios {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .publicacion {
+    padding: 10px;
+  }
+
+  .publicacion h4 {
+    font-size: 1rem;
+  }
+
+  .publicacion p {
+    font-size: 0.625rem;
+  }
+
+  .sidebars-container {
+    flex-direction: column;
+  }
+
+  .sidebars {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .publicidad {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .curso-publicidad h2 {
+    font-size: 1.2rem;
+  }
+
+  .curso-publicidad p {
+    font-size: 0.625rem;
+  }
+
+  .publicidad img {
+    width: 100%;
+  }
+
+  .curso-publicidad {
+    padding-right: 0;
+  }
+}
+@media (max-width: 320px) {
+  .recursos {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .recurso {
+    padding: 10px;
+  }
+
+  .recurso img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .recurso p {
+    font-size: 0.75rem;
+  }
+}
+
+*/
+
+@media (max-width: 320px) {
+  header {
+    flex-direction: column;
+    padding: 0.625rem 0.3125rem;
+  }
+
+  .tituloPagina {
+    font-size: 1rem;
+  }
+
+  .logo a,
+  .containerFooter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .columnasFooter {
+    flex-direction: column;
+  }
+
+  .columna {
+    flex-basis: 100%;
+    margin-bottom: 0.625rem;
+  }
+
+  .topPage {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .invitacion {
+    width: 100%;
+    margin: 1.25rem 0;
+    font-size: 0.625rem;
+
+    h3 {
+      font-size: 1.125rem;
+    }
+  }
+
+  .containerIndex {
+    grid-template-columns: 1fr;
+    padding: 0.625rem;
+  }
+
+  .publicacionesUsuarios {
+    grid-template-columns: 1fr;
+    gap: 0.625rem;
+    padding: 0.625rem;
+  }
+
+  .publicacion {
+    padding: 0.625rem;
+  }
+
+  .sidebars-container {
+    display: none;
+  }
+
+  .verMas {
+    margin-right: 0;
+  }
+
+  .recursos {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding-bottom: 3.125rem;
+  }
+
+  .eventos {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0.75rem;
+    padding: 0.625rem;
+  }
+
+  .topPage_eventos {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .ultimosGanadores {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.75rem;
+  }
+
+  .contactoSection {
+    textarea {
+      width: 100%;
+      height: 7.5rem;
+    }
+
+    input {
+      &[type="text"],
+      &[type="email"] {
+        width: 100%;
+      }
+    }
+
+    button {
+      width: 100%;
+    }
+  }
+
+  .opiniones {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1.0625rem;
+  }
+
+  .opinion {
+    max-width: 100%;
+    margin: 1.25rem 0;
+  }
+
+  .acercaDeNosotros {
+    flex-direction: column;
+    align-items: center;
+
+    img {
+      max-width: 80%;
+      margin-right: 0;
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  .acercaContenido {
+    font-size: 0.9375rem;
+  }
+
+  .navbar nav ul {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+
+  .publicidad {
+    display: none;
+  }
+
+  .carouselContainer {
+    padding: 1.25rem;
+    flex-direction: column;
+  }
+
+  .carouselDescription {
+    flex-direction: column;
+    gap: 0.625rem;
+  }
+}

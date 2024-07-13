@@ -1,0 +1,80 @@
+@media (max-width: 23.4375rem) {
+  .navbar nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    gap: 0.75rem;
+  }
+
+  .publicacionesUsuarios {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    gap: 1.25rem;
+    padding: 1.25rem;
+  }
+
+  .publicidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f2f11af;
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    width: 80%;
+    height: 50%;
+  }
+  .recursos {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .recurso {
+    padding: 0.9375rem;
+  }
+
+  .recurso img {
+    width: 4.375rem;
+    height: 4.375rem;
+  }
+
+  .recurso p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .publicacion h4 {
+    font-size: 1.125rem;
+  }
+
+  .publicacion p {
+    font-size: 0.75rem;
+  }
+
+  .publicidad img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .recursos {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .recurso {
+    padding: 15px;
+  }
+
+  .recurso img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .recurso p {
+    font-size: 0.75rem;
+  }
+}

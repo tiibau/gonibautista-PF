@@ -1,0 +1,19 @@
+.navbar nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.25rem;
+  margin-right: 1.25rem;
+
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+
+    &:hover {
+      color: #e78f1c;
+      transform: scale(1.2);
+      transition: transform 100ms linear 90ms;
+    }
+  }
+}
